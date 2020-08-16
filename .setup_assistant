@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: turtlebot3_manipulation_description
+    relative_path: urdf/turtlebot3_manipulation_robot.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/turtlebot3_manipulation.srdf
+  CONFIG:
+    author_name: sai teja
+    author_email: nallam@clemson.edu
+    generated_timestamp: 1593197847
